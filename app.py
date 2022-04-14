@@ -41,7 +41,6 @@ fig6 = sankey.sankey_diagram_g_scat(new_df, 'ArtsVisuels')
 fig7=barchart.barchart_gratuit(df_barchart)
 
 
-fig4.write_html("index4.html")
 def init_app_layout(fig1, fig2, fig3, fig4, fig5, fig6):
 
     return html.Div(className='content', children=[
