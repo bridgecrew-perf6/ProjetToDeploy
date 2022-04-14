@@ -14,7 +14,7 @@ import barchart
 app = dash.Dash(__name__)
 app.title = 'Projet | INF8808'
 
-df_file = "assets/donnees_culturelles_synapseC_2.csv"
+df_file = "assets\donnees_culturelles_synapseC_2.csv"
 df = preproc.to_df(df_file)
 # data preparation
 repartition_region = preproc.to_df("assets/repartion_region.csv")
